@@ -1,13 +1,14 @@
 import Link from "next/link";
 import React from "react";
-
+import {SiGoogleforms} from 'react-icons/si'
 function Logo() {
   return (
     <Link
       href={"/"}
-      className="font-bold text-2xl bg-gradient-to-r from-purple-700 to-red-800 text-transparent bg-clip-text hover:cursor-pointer"
+      className="font-semibold items-center justify-center space-x-2 text-2xl  hover:cursor-pointer flex"
     >
-      FormBuddy
+      <SiGoogleforms/>
+      <p>FormBuddy</p>
     </Link>
   );
 }
